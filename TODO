@@ -1,0 +1,9 @@
+* Critical
+* Major
+ - Parse yaml and generate nodes
+ - Iteratively compute each node's coordinates
+ - Draw using python PIL / some C++ lib / JS canvas
+ - Export as image (png…)
+* Normal
+* Minor
+ - Nicify the drawings (must be as nice as tikz)

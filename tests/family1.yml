@@ -1,0 +1,32 @@
+people:
+  father:
+  mother:
+    siblings:
+      - uncle
+    id: 1
+  uncle:
+  son1:
+    parents:
+      - father
+      - mother
+    diseases:
+      - flue
+      - death
+    birthdate: 1986
+    id: 2
+  son2:
+    parents:
+      - father
+      - mother
+    birthdate: 1988
+    id: 3
+  daughter1:
+    parents:
+      - father
+      - mother
+    birthdate: 1990
+diseases:
+  flue:
+    color: red
+  death:
+    color: black
